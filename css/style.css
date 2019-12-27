@@ -1,0 +1,43 @@
+.container {
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+   
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+.logo {
+   padding-top: 60px;
+}
+.nav {
+    float: right;
+}
+.nav li {
+    display: inline-block;
+}
+#header {
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.header-info h2 {
+    font-size: 65px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 430px;
+    text-align: center;
+
+}
+.header-info h4 {
+    font-size: 33px;
+    text-align: center;
+    font-weight: 100;
+    color: #d1ced5;   
+}
