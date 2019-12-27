@@ -3,7 +3,8 @@
     width: 100%;
     margin: 0 auto;
     position: relative;
-   
+    overflow: hidden;
+    padding: 0 20px;
 }
 * {
     box-sizing: border-box;
@@ -21,8 +22,20 @@ body {
 .nav li {
     display: inline-block;
 }
+.nav li a {
+    color: #b2b4b9;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 30px;
+    position: relative;
+    bottom: 40px;
+}
+.nav li a:hover {
+    color: white;
+    font-weight: 600;
+}
 #header {
-    background-image: url('../img/background.png');
+    background-image:linear-gradient(rgba(119, 38, 178, 0.6),rgba(139, 89, 176, 0.6)), url('../img/background.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -31,13 +44,86 @@ body {
     font-size: 65px;
     color: white;
     font-weight: 400;
-    margin-bottom: 430px;
     text-align: center;
-
+    padding-top: 90px;
 }
 .header-info h4 {
     font-size: 33px;
     text-align: center;
     font-weight: 100;
-    color: #d1ced5;   
+    color: #d1ced5; 
+    position: relative;
+    bottom: 40px;  
+}
+.header-info,
+.header-btn {
+    text-align: center;
+    margin-bottom: 240px;
+}
+.header-btn {
+    padding: 10px 40px;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.header-btn:hover {
+    background: #6842a0;
+    transition: 0.3s;
+}
+/* Wrapper */
+#wrapper .container {
+    margin-top: 125px;
+}
+#wrapper h1 {
+    float: left;
+    width: 50%;
+}
+.right-wrapper {
+    float: right;
+    width: 50%;
+}
+.wp {
+    position: absolute;
+}
+.wrapper-heading {
+    font-size: 90px;
+    font-weight: 500;
+    color: #e1e1e1;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+.block {
+    display: block;
+}
+.wp-h1 {
+    margin-left: 100px;
+    position: relative;
+    bottom: 20px;
+    font-size: 20px;
+    color: #333333;
+}
+.wp-para1 {
+    margin-left: 100px;
+    margin-bottom: 50px;
+    position: relative;
+    bottom: 20px;
+    font-size: 14px;
+    line-height: 20px; 
+}
+.wp-h2 {
+    margin-left: 100px;
+    color: #654b9f;
+    font-size: 20px;
+}
+.wp-h {
+    margin-left: 100px; 
+    font-size: 20px;
+    color: #333333;
+}
+.wp-para {
+    margin-left: 100px;
+    margin-bottom: 50px;
+    font-size: 14px;
+    line-height: 20px;
 }
