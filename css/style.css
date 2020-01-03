@@ -28,17 +28,57 @@ body {
     text-decoration: none;
     margin-left: 30px;
     position: relative;
-    bottom: 40px;
+    bottom: 52px;
 }
 .nav li a:hover {
     color: white;
     font-weight: 600;
 }
-#header {
+.slideshow-container {
     background-image:linear-gradient(rgba(119, 38, 178, 0.6),rgba(139, 89, 176, 0.6)), url('../img/background.png');
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
+    background-position: center;
+    max-width: 100%;
+  }
+  .dot1 {
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    max-width: 100%;
+ }
+ .dot2 {
+    background-image:url('../img/background-2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    max-width: 100%;
+ }
+ .dot3 {
+    background-image:url('../img/background-3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    max-width: 100%;
+ }
+.dot {
+    bottom: 400px;
+    right: 100px;
+    position: relative;
+    cursor: pointer;
+    float: right;
+    clear: right;
+    height: 12px;
+    width: 12px;
+    margin: 6px 2px;
+    background-color: #959595;
+    border-radius: 50%;
+    display: block;
+    transition: background-color 0.3s ease;
+  }
+.dot:hover {
+    background-color: #ffffff;
 }
 .header-info h2 {
     font-size: 65px;
