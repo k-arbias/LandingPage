@@ -1,5 +1,5 @@
 .container {
-    max-width: 1150px;
+    max-width: 1250px;
     width: 100%;
     margin: 0 auto;
     position: relative;
@@ -189,6 +189,7 @@ body {
 }
 #customer p {
     font-size: 18px;
+    line-height: 23px;
     position: relative;
     bottom: 30px;
     color: #333333;
@@ -206,4 +207,46 @@ body {
 .cs-btn {
     position: relative;
     margin-left: 15px;
+}
+/* Portfolio */
+#portfolio h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 70px;
+    margin-bottom: 0;
+    color: #333333;
+}
+#portfolio p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 35px;
+    color: #333333;
+    position: relative;
+    left: 15px;
+}
+.filter {
+    text-align: center;
+    width: 100%;
+}
+#filters {
+    list-style: none;
+    display: inline-flex;
+}
+#filters li {
+    margin-left: 20px;
+    color: #332828;
+    border: 2px solid #333333;
+    padding: 6px 18px;
+    font-size: 17px;
+}
+.items li {
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#filters li:hover {
+    background-color: #4e3391;
+    color: white;
+    cursor: pointer;
 }
