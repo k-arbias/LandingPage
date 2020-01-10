@@ -234,7 +234,6 @@ body {
 }
 #filters li {
     margin-left: 20px;
-    color: #332828;
     border: 2px solid #333333;
     padding: 6px 18px;
     font-size: 17px;
@@ -245,8 +244,54 @@ body {
     margin-left: 10px;
     margin-bottom: 10px;
 }
+#filters li a {
+    text-decoration: none;
+    color: #332828;
+}
 #filters li:hover {
     background-color: #4e3391;
     color: white;
     cursor: pointer;
+}
+#filters li a:hover {
+    color: white;
+}
+.items .item {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.items .icons {
+    position: absolute;
+    width: 90px;
+    height: 40px;
+    left: 50%;
+    top: 50%;
+    margin: -20px auto 0 -47px;
+    text-align: center;
+    z-index: 3;
+}
+.searchIcon {
+    border: 2px solid white;
+    padding: 6px;
+    color: white;
+}
+.heartIcon {
+    border: 2px solid #ed145b;
+    padding: 6px;
+    color: white;
+    margin-left: 4px;
+    background-color: #ed145b;
+}
+.icons .searchIcon {
+   display: none;
+}
+.icons .heartIcon {
+    display: none;
+}
+.items .item:hover .searchIcon {
+    display: inline;
+}
+.items .item:hover .heartIcon {
+    display: inline;
 }
