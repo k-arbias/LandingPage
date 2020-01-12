@@ -118,6 +118,7 @@ body {
 #wrapper h1 {
     float: left;
     width: 50%;
+    font-weight: 700;
 }
 .right-wrapper {
     float: right;
@@ -373,29 +374,37 @@ body {
 .leftSide .name {
     background-color: #232323;
     border: 1px solid white;
-    padding: 12px 110px;
+    height: 40px;
+    width: 391px;
+    padding-left: 10px;
 }
-::-webkit-input-placeholder {
+/* ::-webkit-input-placeholder {
     position: relative;
     right: 95px;
-}
+} */
 .leftSide .email {
     background-color: #232323;
     border: 1px solid white;
-    padding: 12px 110px;
+    height: 40px;
+    width: 391px;
+    padding-left: 10px;
     margin-top: 10px;
 }
 .leftSide .subject {
     background-color: #232323;
     border: 1px solid white;
-    padding: 12px 110px;
+    height: 40px;
+    width: 391px;
+    padding-left: 10px;
     margin-top: 10px;
 }
 .leftSide .message {
     background-color: #232323;
     margin-top: 10px;
-    padding: 12px 110px;
-    height: 150px;
+    width: 391px;
+    height: 140px;
+    padding-bottom: 102px;
+    padding-left: 10px;
 }
 .leftSide .button {
     border: 1px solid white;
@@ -410,7 +419,7 @@ body {
 .rightSide h3{
     font-size: 28px;
     font-weight: 400;
-    color: #b6b6b6;
+    color: #f7f7f7;
 }
 .footerIcons {
     list-style: none;
@@ -453,4 +462,174 @@ body {
 }
 #copyright .right img{
     margin-left: 30px;
+}
+.test {
+    background-color: #333333;
+}
+/* Responsive */
+@media only screen and (max-width: 1215px) {
+    .cIcons li {
+        margin-left: 120px;
+    }
+}
+@media only screen and (max-width: 1020px) {
+    .cIcons li {
+        margin-left: 80px;
+    }
+    .rightSide li {
+        padding-left: 40px;
+    }
+    .rightSide h3 {
+        padding-left: 40px;
+    }
+}
+@media only screen and (max-width: 920px) {
+    .cIcons li {
+        margin-left: 50px;
+    }
+    .rightSide li {
+        padding-left: 100px;
+    }
+    .rightSide h3 {
+        padding-left: 100px;
+    }
+}
+@media only screen and (max-width: 815px) {
+    .cIcons li {
+        margin-left: 40px;
+    }
+    .rightSide li {
+        padding-left: 140px;
+    }
+    .rightSide h3 {
+        padding-left: 140px;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .cIcons li {
+        margin-left: 35px;
+    }
+    .leftSide .name {
+        width: 230px;
+    }
+    .leftSide .email {
+        width: 230px;
+    }
+    .leftSide .subject {
+        width: 230px;
+    }
+    .leftSide .message {
+        width: 230px;
+    }
+    .rightSide li {
+        padding-left: 100px;
+    }
+    .rightSide h3 {
+        padding-left: 100px;
+    }
+    #copyright .right img {
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 680px) {
+    #filters li {
+        margin-left: 4px;
+        padding:4px 8px;
+        font-size: 16px;
+    }
+    .dot {
+        display: inline-flex;
+        bottom: 67px;
+        float: none;
+        left: 300px;
+        margin-left: 6px;
+        background-color: darkslategrey;
+    }
+    .navbar {
+        overflow: hidden;
+        position: absolute;
+        right: 30px;
+        top: 50px;
+        display: block;
+    }
+    .menu {
+        background: url('../img/menu.png') no-repeat 100% center;
+         display: block;
+         height: 31px;
+         width: 40px;
+         cursor: pointer;
+         float: right;
+         margin-top: 10px;
+    }
+    .container nav ul {
+        height: 0;
+        overflow: hidden;
+        background: darkslategray;
+        border-radius: 5px;
+    }
+    .container nav ul.open {
+        height: auto;
+        clear: both;
+    }
+    .container nav ul li {
+        float: none;
+        text-align: right;
+        width: auto;
+        display: block;
+        position: relative;
+        top: 50px;
+    }
+    .container nav ul li a:hover {
+        border: none;
+    }
+    .container nav ul li a {
+        color: white;
+        padding: 10px;
+        display: block;
+        margin: 0;
+    } 
+}
+@media only screen and (max-width: 590px) {
+    .dot {
+        left: 210px;
+    }
+    .customer-btn {
+        padding-right: 2px;
+        padding-left: 5px;
+        font-size: 15px;
+    }
+    .cIcons .cNr {
+        font-size: 25px;
+    }
+    .cIcons .cP {
+        font-size: 15px;
+    }
+    .rightSide h3 {
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    .rightSide li p {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .leftSide .name {
+        width: 190px;
+    }
+    .leftSide .email {
+        width: 190px;
+    }
+    .leftSide .subject {
+        width: 190px;
+    }
+    .leftSide .message {
+        width: 190px;
+    }
+    .copyrightPara {
+        font-size: 14px;
+        margin-left: 0;
+    }
+    #copyright .right {
+        left: 10px;
+        top: 8px;
+    }
 }
