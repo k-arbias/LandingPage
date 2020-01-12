@@ -45,3 +45,7 @@ element.forEach(function(){
    })
 
  });
+
+ $(".menu").on("click", function(){
+   $(".container nav ul").toggleClass("open");
+ });
