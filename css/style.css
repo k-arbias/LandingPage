@@ -309,6 +309,7 @@ body {
 .cIcons {
     display: inline-flex;
     list-style: none;
+    margin-left: -35px;
 }
 .cIcons li {
     margin-left: 156px;
@@ -360,12 +361,12 @@ body {
     float: right;
     width: 40%;
     margin-top: 56px;
-    color: white;
+    color: #f7f7f7;
     position: relative;
     right: 90px;
 }
 .leftSide h3 {
-    color: white;
+    color: #f7f7f7;
     font-size: 28px;
     font-weight: 400;
 }
@@ -404,10 +405,12 @@ body {
     padding: 10px 45px;
     font-size: 13px;
     margin-top: 10px;
+    cursor: pointer;
 }
 .rightSide h3{
     font-size: 28px;
     font-weight: 400;
+    color: #b6b6b6;
 }
 .footerIcons {
     list-style: none;
@@ -418,6 +421,7 @@ body {
 }
 .rightSide li p {
     margin-left: 20px;
+    color: #b6b6b6;
 }
 .rightSide .home {
     margin-top: 20px;
@@ -427,4 +431,26 @@ body {
 }
 .rightSide .mail {
     margin-top: 40px;
+}
+/* Copyright */
+#copyright {
+    background-color: #1f1f1f;
+    height: 50px;
+    padding-bottom: 72px;
+}
+.copyrightPara {
+    color: #555555;
+    font-size: 18px;
+    margin-left: 65px;
+    position: relative;
+    top: 10px;
+}
+#copyright .right {
+    float: right;
+    margin-top: -30px;
+    position: relative;
+    right: 65px;
+}
+#copyright .right img{
+    margin-left: 30px;
 }
